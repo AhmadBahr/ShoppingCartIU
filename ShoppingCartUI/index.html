@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ShoppingCart-UI</title>
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+  <body>
+
+    <!-------------NAVBAR--------------------NAVBAR-----------------------NAVBAR----------->
+    <nav>
+        <img src="free-delivery.webp">
+        <span class="free-del-msg">Free Delievery on all orders across the UAE</span>
+    </nav>
+
+    <!----------------------------Logo,Progress Bar and main menutext------------------->
+
+    <div class="flex-container">
+        <div>
+            <img src="https://media.betterlifeuae.com/logo/stores/1/home-kitchen-appliances-uae_1_.png" alt="Better Life home and kitchen appliances in the UAE" width="140" height="60">
+        </div>
+        <span>
+        </span><div class="cart-summary"> Cart Summary &gt; </div>
+        <div class="shipping-info"> &nbsp;Shipping Information</div>
+        <div class="Review-payment-info">&gt; Review &amp; Payment</div>
+        <div class="main-page">GO BACK TO MAIN PAGE</div>
+        </span>
+    </div>
+
+<!----------------------------Product Table ------------------------------------------------------------------->
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Product</th>
+      <th>Description</th>
+      <th>Warranty Option</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3782618</td>
+      <td><img src="https://media.betterlifeuae.com/catalog/product/s/i/siemens_-_built_in_gas_hob__60_cm__ec6a5pb90m.jpg" alt="Product 1 Image" width="100"></td>
+      <td>Simeens-Built In Gas Hob,60cm, EC6A5PB90M</td>
+      <td class="purple-arrow">
+        <input type="text" value="1 Year Extended Waranty + 240 AED">
+      </td>
+      <td class="purple-arrow">
+        <input type="text" value="1">
+      </td>
+      <td>AED 2,239</td>
+      <td>
+        <button class="remove-button">Remove</button>
+        <button class="edit-button">Edit</button>
+      </td>
+    </tr>
+    <tr>
+      <td>3782618</td>
+      <td><img src="https://media.betterlifeuae.com/catalog/product/s/i/siemens_-_built_undercounter_refrigerator_137_l_ku15raff0m.jpg" alt="Product 2 Image" width="100"></td>
+      <td>Simens- Built Under Refrigerator, 13 L, KU15LA60M</td>
+      <td class="purple-arrow">
+        <input type="text" value="1 Year Extended Waranty + 240 AED">
+      </td>
+      <td class="purple-arrow">
+        <input type="text" value="1">
+      </td>
+      <td>AED 2,239</td>
+      <td>
+        <button class="remove-button">Remove</button>
+        <button class="edit-button">Edit</button>
+      </td>
+    </tr>
+    <tr>
+      <td>3782618</td>
+      <td><img src="https://media.betterlifeuae.com/catalog/product/s/i/siemens_-_built_in_hood__90_cm__box_design__lc97bhm50b.jpg" alt="Product 3 Image" width="100"></td>
+      <td>Simens-Built In Hood, 90cm, Box Design, LC97BHM50B</td>
+      <td class="purple-arrow">
+        <input type="text" value="1 Year Extended Waranty + 240 AED">
+      </td>
+      <td class="purple-arrow">
+        <input type="text" value="1">
+      </td>
+      <td>AED 2,239</td>
+      <td>
+        <button class="remove-button">Remove</button>
+        <button class="edit-button">Edit</button>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+
+  <div class="button-container">
+    <div>
+      <button class="purple-button">Continue Shopping</button>
+  </div>
+
+    <div class="left-align">
+      <button class="purple-button">Update Shopping Cart</button>
+  </div>
+</div>
+
+ <!----------------------------Cart Summary---------------------------------------------------------------------------->
+
+ <div class="cart-summary">
+  <div class="summary-item">
+    <span>Subtotal</span>
+    <span>AED 6,717</span>
+  </div>
+  <div class="summary-item">
+    <span>Shipping</span>
+    <span>AED 130</span>
+  </div>
+  <div class="coupon-code">
+    <input type="text" placeholder="Enter coupon code">
+    <button class="apply-btn">Apply</button>
+  </div>
+  <div class="grand-total">
+    <span class="total-label">Grand Total</span>
+    <span class="total-value">AED6,847</span>
+  </div>
+  <button class="checkout-btn">Checkout</button>
+</div>
+
+<!----------------------------Product you might be interested in------------------------------------------------------->
+
+<div class="carousel-container">
+  <div class="product-carousel">
+    <div class="product-card">
+      <div class="heart-icon">&#10084;</div>
+      <div class="fa-duotone fa-arrow-up-arrow-down"></div>
+      <div class="product-image">
+      <img src="403503_1_800x.webp" alt="Product Image">
+      </div>
+      <div class="product-title">Weber- Apron, ACC_OTH 6474</div>
+      <div class="product-description">Free Delievery and installation</div>
+      <div class="product-price">AED 1,999</div>
+      <button class="add-to-cart-button">
+        Add to Cart <span class="cart-icon">&#128722;</span>
+      </button>
+    </div>
+
+
+    <div class="product-card">
+      <div class="heart-icon">&#10084;</div>
+      <div class="fa-duotone fa-arrow-up-arrow-down"></div>
+      <div class="product-image">
+      <img src="download.jpg" alt="Product Image"></div>
+      <div class="product-title">Ooni- Koda 12 Gas Powered Pizza Oven, UU-PO7OOO</div>
+      <div class="product-description">Free Delievery and installation</div>
+      <div class="product-price">AED 1,999</div>
+      <button class="add-to-cart-button">
+        Add to Cart <span class="cart-icon">&#128722;</span>
+      </button>
+    </div>
+
+
+    <div class="product-card">
+      <div class="heart-icon">&#10084;</div>
+      <div class="fa-duotone fa-arrow-up-arrow-down"></div>
+      <div class="product-image">
+        <img src="download (1).jpg" alt="Product Image"></div>
+      <div class="product-title">Oni -Carry Cover Koda 12,UU-PO79OO</div>
+      <div class="product-description">Free Delievery and installation</div>
+      <div class="product-price">AED 1,999</div>
+      <button class="add-to-cart-button">
+        Add to Cart <span class="cart-icon">&#128722;</span>
+      </button>
+    </div>
+
+    <div class="product-card">
+      <div class="heart-icon">&#10084;</div>
+      <div class="fa-duotone fa-arrow-up-arrow-down"></div>
+      <div class="product-image">
+        <img src="712oB3sI3UL.jpg" alt="Product Image"></div>
+      <div class="product-title">Weber - Q 3200 Gas Grill, GAS_QQQ 57060085</div>
+      <div class="product-description">Free Delievery and installation</div>
+      <div class="product-price">AED 1,999</div>
+      <button class="add-to-cart-button">
+        Add to Cart <span class="cart-icon">&#128722;</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-----------------------------------------------------NewsLetter Footer + Copy Right------------------------------------------------------------------------------------->
+
+
+<section>
+<footer>
+  <div class="newsletter">
+      <h2>
+          <span>Sign up For Our Newsletter</span>
+          <span>Recieve alerts on latest offers, product releases plus exclusive invites</span>
+      </h2>
+      <form action="?">
+          <input type="email" placeholder="Enet your Email">
+          <button type="Subscribe">Subscribe</button>
+      </form>
+      <div class="links"></div>
+        <span>Connect with Us</span>
+      <ul class="social-icons">
+          <li>
+              <a href="#">
+                  <i class="fab fa-facebook"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-youtube"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+          </li>
+      </ul>
+  </div>
+
+  <hr>
+   
+  <div class="main">
+      <div class="links">
+       <h6>Shop Online</h6>
+       <ul>
+          <li>
+              <a href="#">Built-in</a>
+          </li>
+          <li>
+              <a href="#">Small Appliances</a>
+          </li>
+          <li>
+              <a href="#">Refrigators</a>
+          </li>
+          <li>
+              <a href="#">Laundry</a>
+          </li>
+          <li>
+            <a href="#">Dishwashers</a>
+        </li>
+        <li>
+          <a href="#">Air Conditioners</a>
+      </li>
+      <li>
+        <a href="#">Water Care</a>
+    </li>
+    <li>
+      <a href="#">Cookers</a>
+    </li>
+       </ul>
+       <h6>About Us</h6>
+       <ul>
+          <li>
+              <a href="#">Who We Are</a>
+          </li>
+          <li>
+              <a href="#">Our Stores</a>
+          </li>
+          <li>
+              <a href="#">Company News</a>
+          </li>
+          <li>
+              <a href="#">Social Outreach</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Easa Saleh AlGurg</a>
+      </li>
+      <li>
+        <a href="#">Sitemap</a>
+    </li>
+       </ul>
+      </div>
+
+      <div class="links">
+       <h6>Popular</h6>
+       <ul>
+          <li>
+              <a href="#">Vaccum Cleaners</a>
+          </li>
+          <li>
+              <a href="#">Kettles</a>
+          </li>
+          <li>
+              <a href="#">Coffee</a>
+          </li>
+          <li>
+              <a href="#">Washing Machines</a>
+          </li>
+          <li>
+            <a href="#">Juicers</a>
+        </li>
+        <li>
+          <a href="#">FoodProccessors</a>
+      </li>
+      <li>
+        <a href="#">Blenders</a>
+    </li>
+    <li>
+      <a href="#">Mixers</a>
+    </li>
+       </ul>
+       <h6>My Account</h6>
+       <ul>
+          <li>
+              <a href="#">Login</a>
+          </li>
+          <li>
+              <a href="#">Register</a>
+          </li>
+          <li>
+              <a href="#">My Orders</a>
+          </li>
+          <li>
+              <a href="#">My Adresses</a>
+          </li>
+          <li>
+            <a href="#">My Wishlist</a>
+        </li>
+        <li>
+          <a href="#">Account Settings</a>
+      </li>
+       </ul>
+      </div>
+      <div class="links">
+       <h6>Key Brands</h6>
+       <ul>
+          <li>
+              <a href="#">Siemens</a>
+          </li>
+          <li>
+              <a href="#">Smeg</a>
+          </li>
+          <li>
+              <a href="#">Zanussi</a>
+          </li>
+          <li>
+              <a href="#">Terim</a>
+          </li>
+          <li>
+            <a href="#">Forbes</a>
+        </li>
+        <li>
+          <a href="#">Vestfrost</a>
+      </li>
+        <li>
+          <a href="#">Hostess</a>
+      </li>
+      <li>
+        <a href="#">Wolf Power</a>
+    </li>
+    <li>
+      <a href="#">Gorenjie</a>
+    </li>
+       </ul>
+       <h6>Terms & Policies</h6>
+       <ul>
+          <li>
+              <a href="#">Delievery Policy</a>
+          </li>
+          <li>
+              <a href="#">Retuerns & Refunds</a>
+          </li>
+          <li>
+              <a href="#">Terms & Conditions</a>
+          </li>
+          <li>
+              <a href="#">Privacy Policy</a>
+          </li>
+      </div>
+      <div class="links">
+       <h6>Services</h6>
+       <ul>
+          <li>
+              <a href="#">Delivery & Install</a>
+          </li>
+          <li>
+              <a href="#">Product Demonstration</a>
+          </li>
+          <li>
+              <a href="#">Price Promise</a>
+          </li>
+          <li>
+              <a href="#">Easy Installment Plan</a>
+          </li>
+          <li>
+              <a href="#">Solis 5 Years Warantee</a>
+          </li>
+       </ul>
+       <h6>Consumer Rights</h6>
+       <ul>
+          <li>
+              <a href="#">UAE Consumer Rights</a>
+          </li>
+      </div>
+      <div class="links">
+        <h6>Ask Our Team</h6>
+        <ul>
+           <li>
+               <a href="#">Talk to us: 04 404 2020</a>
+           </li>
+           <li>
+               <a href="#">Catalogues</a>
+           </li>
+           <li>
+               <a href="#">Payment Methods</a>
+           </li>
+           <li>
+               <a href="#">FAQs</a>
+           </li>
+          </div>
+        </section>
+
+        <div class="footer-content">
+          <div class="logo">
+            <img src="https://media.betterlifeuae.com/wysiwyg/esaglogo_1.png" alt="ESAG logo">
+          </div>
+          
+          <div class="copyright">
+              &copy; 2022 Better Life LLC | PO Box 325, Dubai, United Arab Emirates
+
+  
+  
+</footer>
+</body>
+</html>
