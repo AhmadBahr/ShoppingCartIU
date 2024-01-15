@@ -29,4 +29,9 @@ A summary total is present for simplistic view and a "More Products if Intereste
 At the end a responsive footer with newsletter, socials and links which helps the consumer to navigate thru the site easily.
 
 ## Code & Snippets
-![Capture](https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-/assets/150359856/c8b189d7-8863-48fb-8c2f-59c7c3b2262a) ![Capture2](https://github.com/AhmadBahr/TicTacToegame-Human-V.S-AI-/assets/150359856/07233a15-b985-4412-8beb-c0c3d5f50125)
+
+![Capture](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/5f88362d-09c1-4ebe-81ee-514e3f307b2b)
+![Capture2](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/bae7e78e-76b3-4675-a528-bec6c6522736)
+![Capture3](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/c153c2e8-00bf-41f6-9558-f6315dd3165f)
+
+
