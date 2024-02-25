@@ -6,7 +6,7 @@
 3. [**Setup**](#setup)
 4. [**Code & Snippets**](#CodeSnippets)
 ## General Info
-A Shopping Cart Static Page simulates using HTML, CSS and JavaScript but with a twist. This piece depicts  a simple static-based approach without using buttons onlu clicakblw which leads to nowhere. The shopping cart page is designed to allow buyers to see all the products they have added to the shopping cart. It contains a detailed list of products and their prices, and is the last stop before customers order and pay.
+A Shopping Cart Static Page simulates using HTML, CSS and JavaScript but with a twist. This piece depicts  a simple static-based approach without using buttons only clicakble which leads to nowhere. The shopping cart page is designed to allow buyers to see all the products they have added to the shopping cart. It contains a detailed list of products and their prices, and is the last stop before customers order and pay.
 
 Think of the shopping cart page as this moment. Just before you check out. If you have a shopping list, now is the time to check it to make sure you have all the items you want to buy. You do not have a credit card. But you know that if everything goes according to plan, your next stop will be at the checkout.
 ## Technologies Used
