@@ -30,8 +30,11 @@ At the end a responsive footer with newsletter, socials and links which helps th
 
 ## Code & Snippets
 
-![Capture](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/5f88362d-09c1-4ebe-81ee-514e3f307b2b)
-![Capture2](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/bae7e78e-76b3-4675-a528-bec6c6522736)
+![index html - ShoppingCartUI - ahmad - Visual Studio Code 25-Jul-24 11_42_36 PM](https://github.com/user-attachments/assets/f845efc3-78a6-4d70-b6d4-5d0d318d0ef4)
+![index html - ShoppingCartUI - ahmad - Visual Studio Code 25-Jul-24 11_42_26 PM](https://github.com/user-attachments/assets/ddc39178-e3a3-4af9-8792-bddfd4fb2ce1)
+![index html - ShoppingCartUI - ahmad - Visual Studio Code 25-Jul-24 11_42_14 PM](https://github.com/user-attachments/assets/b5e0af57-00da-48b5-b4a7-d0f1ac1b0408)
+![index html - ShoppingCartUI - ahmad - Visual Studio Code 25-Jul-24 11_41_45 PM](https://github.com/user-attachments/assets/ae012594-4f9c-4c93-a592-79c157d42095)![Untitled - Google Chrome 25-Jul-24 11_43_25 PM](https://github.com/user-attachments/assets/3dd179a9-1119-4f3b-b289-478e9a920d36)
+![Untitled - Google Chrome 25-Jul-24 11_43_11 PM](https://github.com/user-attachments/assets/5316ff59-027e-4846-8c5f-9b354929fc05)
 ![Capture3](https://github.com/AhmadBahr/ShoppingCartUI/assets/150359856/c153c2e8-00bf-41f6-9558-f6315dd3165f)
 
 
