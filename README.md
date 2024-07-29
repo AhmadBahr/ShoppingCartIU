@@ -1,4 +1,4 @@
-![index html - ShoppingCartUI - ahmad - Visual Studio Code 29-Jul-24 10_48_21 PM](https://github.com/user-attachments/assets/fcd80a8b-0f23-40a6-aa60-4e619d53c377)# ShoppingCartUI
+# ShoppingCartUI
 
 ## Table of Contents
 1. [**General Info**](#general-info)
@@ -30,6 +30,7 @@ A summary total is present for simplistic view and a "More Products if Intereste
 At the end a responsive footer with newsletter, socials and links which helps the consumer to navigate thru the site easily.
 
 ## Code & Snippets
+![index html - ShoppingCartUI - ahmad - Visual Studio Code 29-Jul-24 10_48_21 PM](https://github.com/user-attachments/assets/fcd80a8b-0f23-40a6-aa60-4e619d53c377)
 ![index html - ShoppingCartUI - ahmad - Visual Studio Code 29-Jul-24 10_47_23 PM](https://github.com/user-attachments/assets/58cdc032-2a52-42c2-b3cd-0484f028b103)
 ![index html - ShoppingCartUI - ahmad - Visual Studio Code 29-Jul-24 10_48_31 PM](https://github.com/user-attachments/assets/00f6188e-f1a7-46a7-a11d-aa059a034099)
 ![index html - ShoppingCartUI - ahmad - Visual Studio Code 29-Jul-24 10_47_13 PM](https://github.com/user-attachments/assets/8dd6fffb-a6a8-4202-b4c0-8c01ba7e63fe)
